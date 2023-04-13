@@ -1,8 +1,8 @@
-@import '/styles/heading.css';
-@import '/styles/aboutus.css';
-@import '/styles/projects.css';
-@import '/styles/services.css';
-@import '/styles/reviews.css';
+@import '../styles/heading.css';
+@import '../styles/aboutus.css';
+@import '../styles/projects.css';
+@import '../styles/services.css';
+@import '../styles/reviews.css';
 
 /* *{outline:1px solid red ;
 } */
