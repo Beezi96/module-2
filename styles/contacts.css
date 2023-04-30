@@ -1,0 +1,116 @@
+.container {
+    margin: 0 auto;
+    max-width: 1150px;
+    margin-bottom: 150px;
+}
+
+
+.information__contacts {
+    margin-bottom: 74px;
+    font-size: 18px;
+    line-height: 25px;
+    color: #121212;
+    text-transform: uppercase;
+    
+}
+
+.information{
+    display: flex;
+    gap: 109px;
+}
+
+.information__container-tel:before {
+    content: '';
+    position: absolute;
+    top: -50px;
+    display: block;
+    width: 24px;
+    height: 24px;
+    background-image: url('../resources/phone.png');
+    background-repeat: no-repeat;
+}
+
+.information__container-tel {
+    
+    position: relative;
+    font-size: 60px;
+    line-height: 60px;
+    color: #121212;
+    display: block;
+    text-decoration: none;
+    
+    
+}
+
+.information__container-mail:before {
+    content: '';
+    position: absolute;
+    top: -50px;
+    display: block;
+    width: 24px;
+    height: 24px;
+    background-image: url('../resources/mail.png');
+    background-repeat: no-repeat;
+}
+
+.information__container-mail {
+    position: relative;
+    font-size: 60px;
+    line-height: 60px;
+    color: #121212;
+    display: block;
+    text-decoration: none;
+}
+
+.information__container-tel:hover {
+    opacity: 0.5;
+    text-decoration: underline;
+    text-underline-offset: 17px;
+    text-decoration-thickness: 2px;
+}
+
+.information__container-mail:hover {
+    opacity: 0.5;
+    text-decoration: underline;
+    text-underline-offset: 17px;
+    text-decoration-thickness: 2px;
+}
+
+@media (max-width: 1199px) {
+    .information{
+        gap: 120px;
+    }
+
+    .information__container-mail {
+        font-size: 45px;
+    }
+
+    .information__container-tel {
+        font-size: 45px;
+    }
+}
+
+@media (max-width: 767px) {
+    .information{
+        flex-direction: column;
+        row-gap: 58px;
+    }
+
+    .information__container-mail {
+        font-size: 35px;
+        line-height: 46px;
+    }
+
+    .information__container-tel {
+        font-size: 35px;
+        line-height: 46px;
+    }
+    .information__contacts {
+        margin-bottom: 58px;
+        font-size: 14px;
+        line-height: 19px;
+            
+        
+    }
+
+}

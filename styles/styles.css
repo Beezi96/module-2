@@ -3,6 +3,9 @@
 @import '../styles/projects.css';
 @import '../styles/services.css';
 @import '../styles/reviews.css';
+@import '../styles/gallery.css';
+@import '../styles/contacts.css';
+@import '../styles/footer.css';
 
 /* *{outline:1px solid red ;
 } */
@@ -107,141 +110,13 @@ li {
         margin-bottom: 80px;
     }
 }
-/* .image-section {
-    min-width: 1400px;
-    padding: 0 0 150px 0;
-}
+
+
+
+
+
+
    
-
-.image-container {
-    height: 717px;
-    box-sizing: border-box;
-    display: block;
-    background-image: url('../resources/image.png');
-    background-size: cover;
-    background-repeat: no-repeat;
-    position: relative;
-    background-position: 50%;
-   
-
-}
-
-.text-image {
-    width: 443px;
-    font-weight: 400;
-    font-size: 30px;
-    line-height: 41px;
-    top: 577px;
-    left: 126px;
-    color: #FFFFFF;
-    position: absolute;
-    box-sizing: border-box;
-    
-}
-
-.contacts-container {
-    width: 1150px;
-    margin: 0 auto;
-    padding: 0 120px 160px 120px;
-}
-
-
-.information__contacts {
-    font-size: 18px;
-    line-height: 25px;
-    margin-bottom: 32px;
-    color: #121212;
-    text-transform: uppercase;
-    
-}
-
-.information__contacts:before {
-    content: '';
-    display: block;
-    width: 24px;
-    height: 24px;
-    background-image: url('../resources/phone.png');
-    background-repeat: no-repeat;
-    padding: 12px 0 0 0;
-
-}
-
-.information__container-tel {
-    margin-bottom: 30px;
-    font-size: 60px;
-    line-height: 60px;
-    color: #121212;
-    display: block;
-    text-decoration: none;
-    
-    
-}
-
-.information__container-mail {
-    font-size: 60px;
-    line-height: 60px;
-    color: #121212;
-    display: block;
-    text-decoration: none;
-}
-
-.information__container-tel:hover {
-    opacity: 0.5;
-    text-decoration: underline;
-    text-underline-offset: 17px;
-    text-decoration-thickness: 2px;
-}
-
-.information__container-mail:hover {
-    opacity: 0.5;
-    text-decoration: underline;
-    text-underline-offset: 17px;
-    text-decoration-thickness: 2px;
-}
-
-.footer {
-    min-width: 1400px;
-    padding: 60px 0 30px 0;
-    background-color: #121212;
-}
-
-.footer__nav-list {
-    margin: 0 auto;
-    width: 475px;
-    padding-left: 13px;  
-}
-
-
-.footer__link {
-    height: 25px;
-    font-size: 18px;
-    line-height: 25px;
-    display: inline-block;
-    text-decoration: none;
-    text-transform: uppercase;
-    color: #FFFFFF;
-    margin-right: 53px;
-    
-}
-
-.footer__link:nth-last-child(1) {
-    margin-right: 0;
-}
-
-.footer__link:hover {
-    opacity: 0.5;
-}
-
-.text-footer {
-    width: 100%;
-    margin-top: 87px;
-    margin-right: -5px;
-    text-align: center;
-    font-size: 20px;
-    line-height: 27px;
-    color: #FFFFFF;
-    opacity: 0.5;
-}  */
 
 
 

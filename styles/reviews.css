@@ -40,7 +40,8 @@
 }
 
 .reviews-description__box{
-    height: 360px;
+    /* height: 360px; */
+    height: 100%;
 }
 
 @media (max-width: 1199px) {
@@ -58,7 +59,7 @@
 
     .row {
         column-gap: 10px;
-        row-gap: 70px;
+        row-gap: 78px;
     }
     .col {
         width: calc(50% - 5px);
@@ -99,7 +100,8 @@
     }
 
     .reviews-description__box{
-        height: 264px;
+        /* height: 264px; */
+        height: 100%;
     }
 
 }
