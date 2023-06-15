@@ -42,16 +42,18 @@
 .reviews-description__box{
     /* height: 360px; */
     height: 100%;
+    width: 500px;
 }
 
 @media (max-width: 1199px) {
     
     .reviews-header {
-        margin-bottom: 27px;
+        margin-bottom: 26px;
         font-size: 35px;
         line-height: 48px;
     }
     .reviews-description {
+        width: 100%;
         font-size: 20px;
         line-height: 27px;
     }
@@ -75,7 +77,7 @@
 
     .row {
         flex-direction: column;
-        row-gap: 78px;
+        row-gap: 76px;
     
     }
     .col {

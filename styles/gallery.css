@@ -67,7 +67,7 @@
 
 .gallery__controls {
     display: flex;
-    gap: 20px;
+    gap: 16px;
     
 }
 
@@ -77,6 +77,7 @@
     background-position: 50%;
     width: 40px;
     height: 40px;
+    margin-left: -6px;
 }
 
 .gallery__control-next{
@@ -158,6 +159,9 @@
     .gallery__controls-wrapper {
         bottom: 152px;
     }
+    .gallery__control-prev{
+        margin-left: -4px;
+    }
     
 }
 
@@ -187,7 +191,9 @@
         bottom: 60px;
     }
     .gallery__controls {
-        justify-content: space-between;
+        margin-left: 13px;
+        gap: 321px;
+        /* justify-content: space-between; */
     }
     .gallery__controls-wrapper {
         bottom: 189px;

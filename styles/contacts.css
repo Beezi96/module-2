@@ -45,7 +45,7 @@
 .information__container-mail:before {
     content: '';
     position: absolute;
-    top: -50px;
+    top: -46px;
     display: block;
     width: 24px;
     height: 24px;
@@ -111,6 +111,19 @@
         line-height: 19px;
             
         
+    }
+
+    .information__container-tel:before{
+        background-image: url('../resources/telphone.png');
+        width: 18px;
+        height: 18px;
+        top: -37px;
+    }
+    .information__container-mail:before {
+        background-image: url('../resources/telmail.png');
+        width: 18px;
+        height: 18px;
+        top: -35px;
     }
 
 }
