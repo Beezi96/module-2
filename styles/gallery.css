@@ -191,9 +191,7 @@
         bottom: 60px;
     }
     .gallery__controls {
-        margin-left: 13px;
-        gap: 321px;
-        /* justify-content: space-between; */
+        justify-content: space-between;
     }
     .gallery__controls-wrapper {
         bottom: 189px;

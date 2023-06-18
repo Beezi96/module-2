@@ -19,7 +19,7 @@
     gap: 109px;
 }
 
-.information__container-tel:before {
+.wrapper-trl:before {
     content: '';
     position: absolute;
     top: -50px;
@@ -31,18 +31,19 @@
 }
 
 .information__container-tel {
-    
-    position: relative;
     font-size: 60px;
     line-height: 60px;
     color: #121212;
     display: block;
-    text-decoration: none;
-    
+    text-decoration: none; 
+}
+
+.wrapper-trl{
+    position: relative;
     
 }
 
-.information__container-mail:before {
+.wrapper-mail:before {
     content: '';
     position: absolute;
     top: -46px;
@@ -54,12 +55,16 @@
 }
 
 .information__container-mail {
-    position: relative;
+    
     font-size: 60px;
     line-height: 60px;
     color: #121212;
     display: block;
     text-decoration: none;
+}
+
+.wrapper-mail{
+    position: relative;
 }
 
 .information__container-tel:hover {
@@ -113,13 +118,13 @@
         
     }
 
-    .information__container-tel:before{
+    .wrapper-trl:before{
         background-image: url('../resources/telphone.png');
         width: 18px;
         height: 18px;
         top: -37px;
     }
-    .information__container-mail:before {
+    .wrapper-mail:before {
         background-image: url('../resources/telmail.png');
         width: 18px;
         height: 18px;

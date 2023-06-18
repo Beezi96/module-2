@@ -19,7 +19,7 @@
         <header class="nav-section">
             <div class="container-nav">
                 <a class="logo-link" href="#">
-                    <img class="logo" src="resources/logo.png" alt="логотип метрика">
+                    <img class="logo" src="resources/logosvg.svg" alt="логотип метрика">
                 </a>
                 <nav class="nav__header">
                     <a href="#about us" class="nav__link_header">О НАС</a>
@@ -33,7 +33,7 @@
         <div class=" js-burger burger ">
             <div class=" burger__content">
                 <a class="logo-link" href="#">
-                    <img class="burger_logo" src="resources/logo.png" alt="логотип метрика">
+                    <img class="burger_logo" src="resources/logosvg.svg" alt="логотип метрика">
                 </a>
                 <nav class="burger-nav">
                     <a href="#about us" class="burger-nav__link">О НАС</a>
@@ -145,15 +145,18 @@
                             </p>
                             <input
                                 class="input" 
-                                type="Имя"
+                                type="text"
+                                name="name"
                                 placeholder="Имя">
                             <input 
                                 class="input"
-                                type="Электронная почта"
+                                type="email"
+                                name="email"
                                 placeholder="Электронная почта">
                             <input 
                                 class="input" 
-                                type="Номер телефона"
+                                type="tel"
+                                name="phone"
                                 placeholder="Номер телефона">
                             <button class="popup__send-btn">Отправить</button>
                         </div>
@@ -273,8 +276,13 @@
         <section class="container">
             <h2 id="information__contacts" class=information__contacts >Контакты</h2>
             <div class="information">
-                <a class="information__container-tel" href="tel:+7 935 895-45-35">+7 935&nbsp; 895-45-35</a>
-                <a class="information__container-mail" href="mailto:hello@mail.com">hello@mail.com</a>
+                <div class="wrapper-trl">
+                    <a class="information__container-tel" href="tel:+7 935 895-45-35">+7 935&nbsp; 895-45-35</a>
+                </div>
+                <div class="wrapper-mail">
+                    <a class="information__container-mail" href="mailto:hello@mail.com">hello@mail.com</a>
+                </div>
+                
             </div>
         </section>
 
