@@ -1,11 +1,11 @@
-.projects{
+/* .projects{
     margin-bottom: 30px;
     font-weight: 400;
     font-size: 18px;
     line-height: 25px;
     color: #121212;
     text-transform: uppercase;
-}
+} */
 
 .list__apartment_img{
     margin-bottom: 14px;
@@ -74,11 +74,11 @@
         margin-bottom: 17px;
     }
 
-    .projects {
+    /* .projects {
         margin-bottom: 20px;
         font-size: 14px;
         line-height: 19px;
-    }
+    } */
 
     .list__apartment_text {
          margin-bottom: 11px;

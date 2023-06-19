@@ -1,10 +1,10 @@
-.reviews-tattle {
+/* .reviews-tattle {
     margin-bottom: 30px;
     font-size: 18px;
     line-height: 25px;
     text-transform: uppercase;
     color: #121212;
-}
+} */
 
 .row {
     display: flex;
@@ -69,11 +69,11 @@
     }
 }
 @media (max-width: 767px) {
-    .reviews-tattle {
+    /* .reviews-tattle {
         margin-bottom: 22px;
         font-size: 14px;
         line-height: 19px;
-    }
+    } */
 
     .row {
         flex-direction: column;

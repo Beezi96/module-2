@@ -1,10 +1,10 @@
-.about-us{
+/* .about-us{
     font-size: 18px;
     line-height: 25px;
     font-weight: 400;
     color:  #121212;
     margin-bottom: 30px;
-}
+} */
 
 .info {
     width: 1051px;
@@ -42,15 +42,15 @@
 
 @media (max-width: 767px) {
 
-    .about-us {
+    /* .about-us {
         margin-bottom: 20px;
         font-size: 14px;
         line-height: 19px;
-    }
+    } */
 
     .info {
         padding: 0;
-        max-width: 345px;
+        max-width: 100%;
         font-size: 22px;
         line-height: 30px;
 
