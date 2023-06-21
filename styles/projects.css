@@ -1,19 +1,12 @@
-/* .projects{
-    margin-bottom: 30px;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 25px;
-    color: #121212;
-    text-transform: uppercase;
-} */
 
-.list__apartment_img{
+
+.project__item-img{
     margin-bottom: 14px;
     width: 100%;
 
 }
 
-.list__apartment_text{
+.project__item-text{
     margin-bottom: 14px;
     font-weight: 400;
     font-size: 30px;
@@ -21,7 +14,7 @@
     color: #121212;
 }
 
-.list__apartment_btn{
+.project__item-btn{
     display: block;
     font-size: 20px;
     line-height: 27px;
@@ -32,7 +25,7 @@
 
 
 
-.allapartment-btn{
+.project__list-btn{
     width: 100%;
     display: block;
     height: 153px;
@@ -46,53 +39,48 @@
 
 }
 
-.allapartment-btn:hover{
+.project__list-btn:hover{
     background: #AD1818;
     color: #FFFFFF;
 }
 
 @media (max-width: 1199px) {
 
-    .list__apartment_text {
+    .project__item-text {
         margin-bottom: 8px;
         font-size: 25px;
         line-height: 34px;
     }
 
-    .list__apartment_btn {
+    .project__item-btn {
         margin-bottom: 80px;
     }
 
-    .allapartment-btn {
+    .project__list-btn {
         margin-top: 102px;
     }
 }
 
 @media (max-width: 767px) {
 
-    .list__apartment_img {
+    .project__item-img {
         margin-bottom: 17px;
     }
 
-    /* .projects {
-        margin-bottom: 20px;
-        font-size: 14px;
-        line-height: 19px;
-    } */
 
-    .list__apartment_text {
+    .project__item-text {
          margin-bottom: 11px;
         font-size: 18px;
         line-height: 25px;
     }
 
-    .list__apartment_btn {
+    .project__item-btn {
         font-size: 16px;
         line-height: 22px;
         margin-bottom: 49px;
     }
 
-    .allapartment-btn {
+    .project__list-btn {
         margin-top: 60px;
         height: 100px;
         font-size: 22px;

@@ -17,12 +17,8 @@
     margin: 0 auto;
 } */
 
-
-body{
-    /* font-family: 'Manrope', sans-serif; */
-    background: #FFFFFF; 
-    /* width: 100%; */
-
+html{
+    scroll-behavior: smooth;
 }
 
 h1,
