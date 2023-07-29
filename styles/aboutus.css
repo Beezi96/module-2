@@ -1,6 +1,6 @@
 
 
-.info {
+.about-us__info {
     width: 1051px;
     font-size: 45px;
     line-height: 61px;
@@ -11,7 +11,7 @@
     
 }
 
-.btn {
+.about-us__btn {
     display: block;
     height: 67px;
     width: 255px;
@@ -27,7 +27,7 @@
 
 @media (max-width: 1199px) {
 
-    .info {
+    .about-us__info {
         max-width: 690px;
         font-size: 35px;
         line-height: 48px;
@@ -37,7 +37,7 @@
 @media (max-width: 767px) {
 
 
-    .info {
+    .about-us__info {
         padding: 0;
         max-width: 100%;
         font-size: 22px;
@@ -45,7 +45,7 @@
 
     }
 
-    .btn {
+    .about-us__btn {
         margin-bottom: 80px;
         width: 100%;
         height: 51px;

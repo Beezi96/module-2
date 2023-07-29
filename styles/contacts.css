@@ -1,21 +1,12 @@
 
 
-
-.information__contacts {
-    margin-bottom: 74px;
-    font-size: 18px;
-    line-height: 25px;
-    color: #121212;
-    text-transform: uppercase;
-    
-}
-
-.information{
+.contacts-content{
+    margin-top: 74px;
     display: flex;
     gap: 109px;
 }
 
-.wrapper-trl:before {
+.contacts-tel:before {
     content: '';
     position: absolute;
     top: -50px;
@@ -26,7 +17,7 @@
     background-repeat: no-repeat;
 }
 
-.information__container-tel {
+.contacts-tel_item {
     font-size: 60px;
     line-height: 60px;
     color: #121212;
@@ -34,12 +25,12 @@
     text-decoration: none; 
 }
 
-.wrapper-trl{
+.contacts-tel{
     position: relative;
     
 }
 
-.wrapper-mail:before {
+.contacts-mail:before {
     content: '';
     position: absolute;
     top: -46px;
@@ -50,7 +41,7 @@
     background-repeat: no-repeat;
 }
 
-.information__container-mail {
+.contacts-mail_item {
     
     font-size: 60px;
     line-height: 60px;
@@ -59,18 +50,18 @@
     text-decoration: none;
 }
 
-.wrapper-mail{
+.contacts-mail{
     position: relative;
 }
 
-.information__container-tel:hover {
+.contacts-tel_item:hover {
     opacity: 0.5;
     text-decoration: underline;
     text-underline-offset: 17px;
     text-decoration-thickness: 2px;
 }
 
-.information__container-mail:hover {
+.contacts-mail_item:hover {
     opacity: 0.5;
     text-decoration: underline;
     text-underline-offset: 17px;
@@ -78,49 +69,44 @@
 }
 
 @media (max-width: 1199px) {
-    .information{
+    .contacts-content{
         gap: 120px;
     }
 
-    .information__container-mail {
+    .contacts-mail_item {
         font-size: 45px;
     }
 
-    .information__container-tel {
+    .contacts-tel_item {
         font-size: 45px;
     }
 }
 
 @media (max-width: 767px) {
-    .information{
+    .contacts-content{
+        margin-top: 58px;
         flex-direction: column;
         row-gap: 58px;
     }
 
-    .information__container-mail {
+    .contacts-mail_item {
         font-size: 35px;
         line-height: 46px;
     }
 
-    .information__container-tel {
+    .contacts-tel_item {
         font-size: 35px;
         line-height: 46px;
     }
-    .information__contacts {
-        margin-bottom: 58px;
-        font-size: 14px;
-        line-height: 19px;
-            
-        
-    }
+    
 
-    .wrapper-trl:before{
+    .contacts-tel:before{
         background-image: url('../resources/telphone.png');
         width: 18px;
         height: 18px;
         top: -37px;
     }
-    .wrapper-mail:before {
+    .contacts-mail:before {
         background-image: url('../resources/telmail.png');
         width: 18px;
         height: 18px;

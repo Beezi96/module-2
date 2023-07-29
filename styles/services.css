@@ -7,13 +7,13 @@
     display: block;
 }
 
-.container_box{
+.container_black{
     margin: 0 auto;
     max-width: 1150px;
    
 }
 
-.chapter-black{
+.title-black{
     margin: 0 0 30px 0;
     padding-left: 2px;
     font-weight: 400;
@@ -23,12 +23,12 @@
     
 }
 
-.list_container {
+.services__item {
     width: calc(50% - 5px);
     position: relative;
 }
 
-.services-wrapper {
+.services__list {
     margin-bottom: 101px;
     display: flex;
     flex-wrap: wrap;
@@ -86,7 +86,7 @@
 }
 
 
-.list_container__services_text{
+.services__text {
     padding-left: 4px;
     font-size: 30px;
     line-height: 41px;
@@ -108,13 +108,13 @@
 }
 
 @media (max-width: 1199px) {
-    .section{ 
+    .services{ 
         margin-bottom: 122px;
         padding: 150px 0 118px 0;
         width: 100%;
 
     }
-    .container_box{
+    .container_black{
         width: 100%;
         margin: 0 auto;
         padding: 0 15px;
@@ -125,14 +125,14 @@
         margin-bottom: 15px;
         height: 315px;
     }
-    .list_container {
+    .services__item {
         width: calc(50% - 5px);
         position: relative;
     }
 
 
 
-    .services-wrapper {
+    .services__list {
         margin-bottom: 80px;
         column-gap: 10px;
         row-gap: 80px;
@@ -142,7 +142,7 @@
         font-size: 20px; 
         left: 32px;
     }
-    .list_container__services_text{
+    .services__text {
         padding-left: 0;
         font-size: 25px;
         line-height: 34px;   
@@ -155,18 +155,18 @@
 }
 
 @media (max-width: 767px) {
-    .section{ 
+    .services{ 
         margin-bottom: 80px;
         min-width: 100%;
         padding: 80px 0 79px 0;
     }
-    .container_box{
+    .container_black{
         padding: 0 15px;
         margin: 0 auto;
         width: 100%;
     } 
 
-    .chapter-black {
+    .title-black {
         margin-bottom: 20px;
         font-size: 14px;
         line-height: 19px;
@@ -176,11 +176,11 @@
         height: 240px;
     }
 
-    .list_container {
+    .services__item {
         width: 100%;
         position: relative;
     }
-    .services-wrapper {
+    .services__list {
         margin-bottom: 60px;
         gap: 59px;
     } 
@@ -192,7 +192,7 @@
         font-size: 14px;
         line-height: 30px;
     }
-    .list_container__services_text{
+    .services__text {
         font-size: 18px;
         line-height: 25px;   
     }
